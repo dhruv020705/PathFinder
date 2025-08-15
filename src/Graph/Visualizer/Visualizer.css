@@ -1,0 +1,59 @@
+.grid {
+    margin: 50px auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    overflow-x: auto;
+}
+
+.text-white {
+    color: white;
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+}
+
+.node {
+    width: 20px;
+    /* Adjust the size of the squares */
+    height: 20px;
+    border: 1px solid #ccc;
+}
+
+.node-src {
+    background-color: red;
+}
+
+.node-dest {
+    background-color: green;
+}
+
+.node-visited {
+    background-color: lightblue;
+}
+
+.node-shortest-path {
+    background-color: yellow;
+}
+
+.node-wall {
+    background-color: blue;
+}
+
+.info {
+    margin: 15px 0 0;
+    text-align: center;
+}
+
+.button {
+    margin: 20px 15px 15px;
+    display: flex;
+    justify-content: center;
+}
+
+button {
+    margin: 0 10px;
+}
